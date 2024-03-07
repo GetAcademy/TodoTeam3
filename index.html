@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="view.js"></script>
+    <script src="controller.js"></script>
+</head>
+
+<body>
+    <!--
+        1: Tegne opp 
+        2: Redigere rad
+        3: Filtrere rader
+
+        Hovepoeng: 
+         - Tilstand fra inputs
+    -->
+
+
+    <div id="app"></div>
+    <script>
+        // model                
+        let taskTextInput;
+        let filterResponsible;
+        
+        var tasks = [
+            { text: "Oppgave 172 A", doneDate: "2024-03-05", isSelected: true, responsible: "Per" },
+            { text: "Oppgave 172 B", doneDate: "2024-03-05", isSelected: true, responsible: "Pål" },
+            { text: "Oppgave 172 C", doneDate: "2024-03-05", isSelected: false, responsible: "Espen" },
+            { text: "Oppgave 172 D", doneDate: "2024-03-05", isSelected: false, responsible: "Aleksander" },
+            { text: "Oppgave 172 E", doneDate: "2024-03-05", isSelected: true, responsible: "Per" },
+            { text: "Oppgave 172 F", doneDate: null, isSelected: true, responsible: "Pål" },
+            { text: "Oppgave 172 G", doneDate: null, isSelected: true, responsible: "Espen" },
+            { text: "Oppgave 172 H", doneDate: null, isSelected: true, responsible: "Aleksander" }
+        ];
+
+        // view
+        updateView();
+
+
+        // controller
+
+    </script>
+</body>
+
+</html>
